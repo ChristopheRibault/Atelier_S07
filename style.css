@@ -1,0 +1,33 @@
+#demo, .carousel-item img{
+	height:23vw;
+	padding: 0;
+}
+
+.container-fluid{
+	padding: 0;
+	margin: 10px 0;
+}
+
+.btn{
+	border: 1px #BBB solid;
+}
+
+h1{
+	color: #050564;
+}
+
+ul{
+	list-style-type: none;
+}
+
+a{
+	color: auto;
+}
+
+.footer-elt{
+	margin: 10px;
+}
+
+.about{
+	font-style: italic;
+}

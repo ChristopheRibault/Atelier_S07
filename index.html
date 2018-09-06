@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>SO7.com</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header class="sticky-top">
+		<nav class="navbar navbar-expand-md bg-info navbar-light">
+			<a class= "navbar-brand" href="index.html"><img src="logo.png" alt="logo" /></a>
+			<a class= "navbar-brand" href="index.html"><h1>SO7.com</h1></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse justify-content-center " id="collapsibleNavbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class = "nav-link" href="index.html">Accueil</a>
+				</li>
+				<li class="nav-item">
+					<a class = "nav-link" href="Hommes.html">Hommes</a>
+				</li>
+				<li class="nav-item">
+					<a class = "nav-link" href="Femmes.html">Femmes</a>
+				</li>
+				<li class="nav-item">
+					<a class = "nav-link" href="Enfants.html">Enfants</a>
+				</li>				
+			</ul>
+			</div>
+			<button class="btn btn-danger">Mon Panier</button>
+		</nav>
+	</header>
+
+	<main class="container-fluid">
+
+		<!--Slider-->
+
+		<div id = "demo" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+    		<li data-target="#demo" data-slide-to="0" class="active"></li>
+    		<li data-target="#demo" data-slide-to="1"></li>
+    		<li data-target="#demo" data-slide-to="2"></li>
+  		</ul>
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+      			<img src="socks_slider1.png" alt="slider">
+    		</div>
+    		<div class="carousel-item">
+      			<img src="socks_slider2.png" alt="slider">
+    		</div>
+    		<div class="carousel-item">
+      			<img src="socks_slider3.png" alt="slider">
+    		</div>
+  		</div>
+  		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+    		<span class="carousel-control-prev-icon"></span>
+  		</a>
+  		<a class="carousel-control-next" href="#demo" data-slide="next">
+    		<span class="carousel-control-next-icon"></span>
+  		</a>
+  		</div>
+
+  		<!--Grille de produits-->
+
+  		<div class="container-fluid">
+  			<div class="row">
+  				<button type ="button" class="btn col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal1">
+  					<img src="socks1.resized.jpeg" alt="socks"/>
+  					<h4>Chaussettes Superman</h4>
+  				</button>
+  				<div class="modal" id="modal1">
+  					<div class="modal-dialog">
+  						<div class="modal-content">
+  							<div class="modal-header">
+  								<h4 class="modal-title">Chaussettes Superman</h4>
+  								<button type="button" class="close" data-dismiss="modal">&times;</button>
+  							</div>
+  							<div class="modal-body">
+  								<img src="socks1.resized.jpeg" alt="socks"/>
+  							</div> 	
+  							<div class="modal-footer">
+  								<p>Description du produit.</p>
+  							</div>						
+  						</div>  						
+  					</div>
+  				</div>
+  				<button type ="button" class="btn col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal2">
+  					
+  					<img src="socks4.resized.jpeg" alt="socks"/>
+  					<h4>Chaussettes Batman</h4>
+  				</button>
+  				<div class="modal" id="modal2">
+  					<div class="modal-dialog">
+  						<div class="modal-content">
+  							<div class="modal-header">
+  								<h4 class="modal-title">Chaussettes Batman</h4>
+  								<button type="button" class="close" data-dismiss="modal">&times;</button>
+  							</div>
+  							<div class="modal-body">
+  								<img src="socks4.resized.jpeg" alt="socks"/>
+  							</div> 	
+  							<div class="modal-footer">
+  								<p>Description du produit.</p>
+  							</div>						
+  						</div>  						
+  					</div>
+  				</div>
+  				<button type ="button" class="btn col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal3">
+  					
+  					<img src="socks5.resized.jpeg" alt="socks"/>
+  					<h4>Chaussettes Canard</h4>
+  				</button>
+  				<div class="modal" id="modal3">
+  					<div class="modal-dialog">
+  						<div class="modal-content">
+  							<div class="modal-header">
+  								<h4 class="modal-title">Chaussettes Canard</h4>
+  								<button type="button" class="close" data-dismiss="modal">&times;</button>
+  							</div>
+  							<div class="modal-body">
+  								<img src="socks5.resized.jpeg" alt="socks"/>
+  							</div> 	
+  							<div class="modal-footer">
+  								<p>Description du produit.</p>
+  							</div>						
+  						</div>  						
+  					</div>
+  				</div>
+  				<button type ="button" class="btn col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal4">
+  					<img src="socks_champi.png" alt="socks"/>
+  					<h4>Chaussettes Toad</h4>
+  				</button>
+  				<div class="modal" id="modal4">
+  					<div class="modal-dialog">
+  						<div class="modal-content">
+  							<div class="modal-header">
+  								<h4 class="modal-title">Chaussettes Toad</h4>
+  								<button type="button" class="close" data-dismiss="modal">&times;</button>
+  							</div>
+  							<div class="modal-body">
+  								<img src="socks_champi.png" alt="socks"/>
+  							</div> 	
+  							<div class="modal-footer">
+  								<p>Description du produit.</p>
+  							</div>						
+  						</div>  						
+  					</div>
+  				</div>
+  				<button type ="button" class="btn col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal5">
+  					<img src="socksDV.jpeg" alt="socks"/>
+  					<h4>Chaussettes Darth Vador</h4>
+  				</button>
+  				<div class="modal" id="modal5">
+  					<div class="modal-dialog">
+  						<div class="modal-content">
+  							<div class="modal-header">
+  								<h4 class="modal-title">Chaussettes Darth Vador</h4>
+  								<button type="button" class="close" data-dismiss="modal">&times;</button>
+  							</div>
+  							<div class="modal-body">
+  								<img src="socksDV.jpeg" alt="socks"/>
+  							</div> 	
+  							<div class="modal-footer">
+  								<p>Description du produit.</p>
+  							</div>						
+  						</div>  						
+  					</div>
+  				</div>
+  				<button type ="button" class="btn col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal6">
+  					<img src="socks_harry.jpeg" alt="socks"/>
+  					<h4>Chaussettes Harry Potter</h4>
+  				</button>
+  				<div class="modal" id="modal6">
+  					<div class="modal-dialog">
+  						<div class="modal-content">
+  							<div class="modal-header">
+  								<h4 class="modal-title">Chaussettes Harry Potter</h4>
+  								<button type="button" class="close" data-dismiss="modal">&times;</button>
+  							</div>
+  							<div class="modal-body">
+  								<img src="socks_harry.jpeg" alt="socks"/>
+  							</div> 	
+  							<div class="modal-footer">
+  								<p>Description du produit.</p>
+  							</div>						
+  						</div>  						
+  					</div>
+  				</div>
+  				<button type ="button" class="btn col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal7">
+  					<img src="socks1.resized.jpeg" alt="socks"/>
+  					<h4>Chaussettes Superman</h4>
+  				</button>
+  				<div class="modal" id="modal7">
+  					<div class="modal-dialog">
+  						<div class="modal-content">
+  							<div class="modal-header">
+  								<h4 class="modal-title">Chaussettes Superman</h4>
+  								<button type="button" class="close" data-dismiss="modal">&times;</button>
+  							</div>
+  							<div class="modal-body">
+  								<img src="socks1.resized.jpeg" alt="socks"/>
+  							</div> 	
+  							<div class="modal-footer">
+  								<p>Description du produit.</p>
+  							</div>						
+  						</div>  						
+  					</div>
+  				</div>
+  				<button type ="button" class="btn col-lg-3 col-md-4 col-sm-6" data-toggle="modal" data-target="#modal8">
+  					<img src="socks4.resized.jpeg" alt="socks"/>
+  					<h4>Chaussettes Batman</h4>
+  				</button>
+  				<div class="modal" id="modal8">
+  					<div class="modal-dialog">
+  						<div class="modal-content">
+  							<div class="modal-header">
+  								<h4 class="modal-title">Chaussettes Batman</h4>
+  								<button type="button" class="close" data-dismiss="modal">&times;</button>
+  							</div>
+  							<div class="modal-body">
+  								<img src="socks4.resized.jpeg" alt="socks"/>
+  							</div> 	
+  							<div class="modal-footer">
+  								<p>Description du produit.</p>
+  							</div>						
+  						</div>  						
+  					</div>
+  				</div>
+  			</div>
+  		</div>
+	</main>
+	<footer>
+		
+	</footer>
+		<div class="container-fluid bg-dark">
+			<div class="row">
+				<ul class="col-md-2 text-light footer-elt">
+					<li><a href ='#'>Contact</a></li>
+					<li><a href ='#'>Facebook</a></li>
+					<li><a href ='#'>Twitter</a></li>
+					<li><a href ='#'>Instagram</a></li>
+				</ul>
+				<ul class="col-md-2 text-light footer-elt">
+					<li><a href ='#'>Legal</a></li>
+					<li><a href ='#'>Terms & Conditions</a></li>
+					<li><a href ='#'>Blog</a></li>
+				</ul>
+				<ul class="col-md-7 text-light footer-elt">
+					<h4>A propos</h4>
+					<p class="about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id ipsum est. Donec a eros leo. Aliquam vel ligula ante. Vivamus ligula nisl, bibendum vel purus varius, lobortis dignissim mauris. In in lobortis elit. Ut cursus, ante at convallis bibendum, nulla tellus tristique sem, eget ullamcorper nunc neque sed elit. Etiam vitae eros massa.</p>
+				</ul>
+			</div>
+		</div>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
